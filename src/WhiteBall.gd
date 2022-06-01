@@ -46,5 +46,4 @@ func _on_HoleArea_entered(area):
 	set_deferred("mode",MODE_STATIC)
 
 func _on_Timer_timeout():
-	queue_free()
 	emit_signal("white_entered_hole")
