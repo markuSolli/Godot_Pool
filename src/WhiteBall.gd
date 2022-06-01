@@ -8,7 +8,7 @@ var rolling = false
 var falling = false
 var target
 
-func _process(delta):
+func _physics_process(delta):
 	if mode == MODE_STATIC:
 		if dragging:
 			$Line.global_rotation = 0
@@ -47,3 +47,12 @@ func _on_HoleArea_entered(area):
 
 func _on_Timer_timeout():
 	emit_signal("white_entered_hole")
+
+func respawn(spawn_pos):
+	global_position = spawn_pos
+	$Sprite.modulate = Color(1,1,1,1)
+	$Sprite.scale = Vector2(0.3,0.3)
+	mode = MODE_STATIC
+	dragging = false
+	rolling = false
+	falling = false
