@@ -186,54 +186,57 @@ texture = ExtResource( 11 )
 [node name="Holes" type="Node2D" parent="."]
 
 [node name="Hole0" type="Area2D" parent="Holes"]
-position = Vector2( 48.8268, 53.019 )
+position = Vector2( 66, 76 )
 collision_layer = 2
 collision_mask = 0
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Holes/Hole0"]
+position = Vector2( -17, -18 )
 shape = SubResource( 5 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Hole1" type="Area2D" parent="Holes"]
+position = Vector2( 635, 59 )
 collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Holes/Hole1"]
-position = Vector2( 633.361, 28.8204 )
+position = Vector2( -1, -26 )
 shape = SubResource( 5 )
 
 [node name="Hole2" type="Area2D" parent="Holes"]
+position = Vector2( 1209, 76 )
 collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Holes/Hole2"]
-position = Vector2( 1228.65, 48.0234 )
+position = Vector2( 20, -18 )
 shape = SubResource( 5 )
 
 [node name="Hole3" type="Area2D" parent="Holes"]
+position = Vector2( 66, 661 )
 collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Holes/Hole3"]
-position = Vector2( 633.381, 706.081 )
+position = Vector2( -19, 18 )
 shape = SubResource( 5 )
 
 [node name="Hole4" type="Area2D" parent="Holes"]
+position = Vector2( 635, 676 )
 collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Holes/Hole4"]
-position = Vector2( 1228.96, 680.294 )
+position = Vector2( -1, 25 )
 shape = SubResource( 5 )
 
 [node name="Hole5" type="Area2D" parent="Holes"]
+position = Vector2( 1210, 661 )
 collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Holes/Hole5"]
-position = Vector2( 46.6182, 684.453 )
+position = Vector2( 16, 19 )
 shape = SubResource( 5 )
 
 [node name="UI" type="Control" parent="."]
