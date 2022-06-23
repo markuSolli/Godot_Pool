@@ -1,5 +1,5 @@
 # Pool
-Work in progress
+A simple 8-ball Pool game made in the Godot Engine. No enforced rules, made for local multiplayer.
 
 ![Image of game window](https://github.com/markuSolli/Godot_Pool/blob/main/banner.PNG)
 
